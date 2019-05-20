@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import "./media_0-767.css";
+import "./media_768-991.css"
+import "./media_992-1199.css"
+import "./media_1200.css"
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

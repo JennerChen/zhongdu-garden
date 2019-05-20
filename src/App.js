@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Banner from "./Banner";
+import GaiYao from "./GaiYao"
+import LingHongBao from "./LingHongBao";
+import KanFang from "./24HourKanFang";
+import LouPanXinXi from "./LouPanXinXi";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Banner/>
+      <GaiYao/>
+      <LingHongBao/>
+      <KanFang/>
+      <LouPanXinXi/>
+    </>
   );
 }
 

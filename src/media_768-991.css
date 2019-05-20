@@ -1,0 +1,508 @@
+@media (min-width:768px) and (max-width:991px) {
+	.body-bg {
+		background: #f0f0f0;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+	}
+
+	.pc_banner {
+		display: none;
+	}
+
+	.m_banner {
+		width: 100%;
+	}
+
+	.pc_gaiyao {
+		display: none;
+	}
+
+	/*****é¢†çº¢åŒ…*****/
+	.page-box02 {
+		width: 97%;
+		height: 150px;
+		margin: 0 auto;
+		background: url(/images/get-money.jpg) no-repeat center top;
+		border-radius: 10px;
+	}
+
+	.pbox02-left {
+		margin-top: 30px;
+	}
+
+	.pbox02-left p {
+		font-size: 22px;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+
+	.pbox02-left h3 {
+		height: 50px;
+		line-height: 50px;
+		font-size: 36px;
+		color: #333;
+		clear: both;
+		overflow: hidden;
+	}
+
+	.pbox02-left h3 i {
+		font-style: normal;
+		float: left;
+	}
+
+	.pbox02-left h3 span {
+		height: 48px;
+		line-height: 48px;
+		border: 1px solid #fff;
+		border-radius: 5px;
+		font-size: 18px;
+		display: inline-block;
+		margin-left: 10px;
+		padding: 0 10px;
+		float: left;
+	}
+
+	.pbox02-right {
+		margin-top: 30px;
+		text-align: right;
+	}
+
+	.pbox02-right p {
+		font-size: 18px;
+		color: #fff;
+		text-align: right;
+		padding-right: 40px;
+		margin-bottom: 16px;
+	}
+
+	.pbox02-right a {
+		display: inline-block;
+		height: 50px;
+		line-height: 50px;
+		background: #fff;
+		border-radius: 25px;
+		width: 200px;
+		text-align: center;
+		font-size: 22px;
+		color: #fe0000;
+		font-weight: bold;
+	}
+
+	.page-img img {
+		width: 100%;
+		display: block;
+		margin: 30px auto 0 auto;
+	}
+
+	.mess-tit h2 {
+		font-size: 24px;
+		color: #333;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+
+	.mess-tit span {
+		width: 110px;
+		display: block;
+		margin: 0 auto;
+		border-bottom: 1px solid #999999;
+		margin-bottom: 20px;
+	}
+
+
+
+	.yuyue-img a {
+		display: block;
+		width: 100%;
+		height: 150px;
+		background: url(/images/yuyue-img.png) no-repeat center top;
+	}
+
+	.yuyue-img a h3 {
+		padding-top: 90px;
+		text-align: center;
+		color: #fff;
+		font-family: "é»‘ä½“";
+	}
+
+	.yuyue-img a h3 strong {
+		font-size: 40px;
+		color: #ebeb00;
+		font-weight: bold;
+	}
+
+	.yuyue-img a h3 strong label {
+		color: #fff !important;
+	}
+
+	.content-bg{
+		width: 100%;
+		background: url(/images/house-bg.png) repeat-y;
+		padding-bottom: 80px;
+	}
+
+	.pagemess {
+		height:40px;
+		line-height:40px;
+		margin-top:50px;
+	}
+	.pagemess p {
+		text-align:center;
+		color:#fff;
+		font-size:14px;
+	}
+	.pagemess p a {
+		color:#fff
+	}
+
+	/*åº•éƒ¨*/
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 120px;
+		z-index: 999;
+		padding-top:40px;
+	}
+
+	.footer ul li {
+		width: 20%;
+		height: 90px;
+		float: left;
+		border-left: 1px solid #f0f0f0;
+		background: #fff;
+	}
+
+	.footer ul li a {
+		display: block;
+		margin: 0;
+		width: 100%;
+		height: 90px;
+		padding-top: 52px;
+		text-align: center;
+		font-size: 16px;
+		color: #990000;
+	}
+
+	.footer ul li.foot-li01 a {
+		background: url(/images/footer/2.png) no-repeat center 6px;
+		background-size: auto 40px;
+	}
+
+	.footer ul li.foot-li02 a {
+		background: url(/images/footer/3.png) no-repeat center 6px;
+		background-size: auto 40px;
+	}
+
+	.footer ul li.foot-li04 a {
+		background: url(/images/footer/4.png) no-repeat center 6px;
+		background-size: auto 40px;
+	}
+	.footer ul li.foot-li05 a {
+		background: url(/images/footer/5.png) no-repeat center 6px;
+		background-size: auto 40px;
+	}
+	.foot-li03 a {
+		padding-top:0px !important;
+		background:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.foot-li03 a span {
+		display:block;
+		width:80px;
+		height:80px;
+		margin:-34px auto 6px auto;
+	}
+
+	.foot-li03 {
+		position:relative;
+	}
+	.foot-li03 label {
+		width:85px;
+		height:85px;
+		display:block;
+		position:absolute;
+		left:50%;
+		top:-36.5px;
+		margin-left:-42.5px;
+		border-radius:50%;
+		z-index:99;
+		animation: foot_animate 2s infinite;
+		-webkit-animation: foot_animate 2s infinite;
+		-moz-animation: foot_animate 2s infinite;
+		-ms-animation: foot_animate 2s infinite;
+	}
+
+	@keyframes foot_animate
+	{
+		0% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+		50% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 20px #990000;
+		}
+		100% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+	}
+	@-webkit-keyframes foot_animate
+	{
+		0% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+		50% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 20px #990000;
+		}
+		100% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+	}
+	@-moz-keyframes foot_animate
+	{
+		0% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+		50% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 20px #990000;
+		}
+		100% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+	}
+	@-ms-keyframes foot_animate
+	{
+		0% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+		50% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 20px #990000;
+		}
+		100% {
+			border:2px solid #fff;
+			box-shadow:0px 0px 5px #990000;
+		}
+	}
+
+	/*å¼¹æ¡†*/
+	.page-updiv {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.2);
+		z-index: 9999;
+		display: none;
+	}
+
+	.updiv-con {
+		width: 360px;
+		height: 350px;
+		background: #fff;
+		box-shadow: 5px 5px 10px #666;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-left: -180px;
+		margin-top: -175px;
+		padding: 0 20px;
+	}
+
+	.updiv-con h3 {
+		font-size: 20px;
+		color: #333;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 30px;
+		padding-bottom: 15px;
+		border-bottom: 1px dashed #C8C8C8;
+	}
+
+	.updel {
+		width: 20px;
+		height: 20px;
+		background: url(/images/updel.jpg) no-repeat left top;
+		display: block;
+		position: absolute;
+		right: -10px;
+		top: -10px;
+	}
+
+	.updiv-input {
+		margin-top: 20px;
+		clear: both;
+		overflow: hidden;
+	}
+
+	.updiv-input label {
+		display: block;
+		float: left;
+		width: 40px;
+		text-align: right;
+		line-height: 35px;
+		font-size: 16px;
+		color: #333;
+	}
+
+	.updiv-input input {
+		height: 35px;
+		line-height: 35px;
+		border: 1px solid #C8C8C8;
+		border-radius: 3px;
+		margin-left: 10px;
+		width: 260px;
+		padding: 0 15px;
+		font-size: 16px;
+		color: #333;
+	}
+
+	a.btn-submit {
+		display: block;
+		width: 300px;
+		height: 35px;
+		background: #FF0000;
+		font-size: 16px;
+		color: #ffffff;
+		text-align: center;
+		line-height: 35px;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	/*å›¢è´­ç”³è¯·*/
+	.tuan-div  h3{
+		font-size:30px;
+		color:#990000;
+		text-align:center;
+		font-weight:bold;
+		margin-top:50px;
+		margin-bottom:10px;
+	}
+	.tuan-div p {
+		font-size:16px;
+		color:#666;
+		text-align:center;
+		line-height:2em;
+	}
+	.tuan-div h5 {
+		font-size:18px;
+		color:#333;
+		text-align:center;
+		margin-top:30px;
+	}
+	.input-div {
+		width:485px;
+		margin:0 auto;
+	}
+	.form-div {
+		margin-top:20px;
+	}
+	.form-div label {
+		width:50px;
+		font-size:16px;
+		color:#666;
+	}
+	.form-div input {
+		width:425px;
+		height:40px;
+		border:1px solid #ccc;
+		padding:0 20px;
+		font-size:16px;
+		color:#333;
+	}
+	.form-div a {
+		width:100%;
+		height:40px;
+		background:#990000;
+		display:block;
+		line-height:40px;
+		text-align:center;
+		font-size:18px;
+		color:#fff;
+	}
+
+	/*24å°æ—¶é¢„çº¦çœ‹æˆ¿*/
+	.allday-yy{
+		background: #fff;
+		margin-top: 40px;
+		padding: 0 20px 40px 20px;
+	}
+	.allday-yy h3{
+		font-size: 24px;
+		color: #333333;
+		font-weight: bold;
+		margin-top: 40px;
+	}
+	.allday-yy p{
+		font-size: 16px;
+		color: #666666;
+		line-height: 2em;
+		margin-top: 10px;
+	}
+	.div24-input {
+		clear:both;
+		overflow:hidden
+	}
+	.div24-input label{
+		display: block;
+		font-size: 24px;
+		color: #333333;
+		padding-left: 20px;
+		background-size: 10px auto;
+		height: 40px;
+		line-height: 40px;
+		font-weight: normal;
+		margin-top: 15px;
+		width:80px;
+		float:left;
+	}
+	.div24-input input{
+		height: 40px;
+		line-height: 40px;
+		border: 1px solid #ccc;
+		width: 630px;
+		padding: 0 40px;
+		font-size: 20px;
+		color: #333;
+		margin-top: 15px;
+	}
+	a.btn-allday{
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		background: #990000;
+		font-size: 24px;
+		color: #fff;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.success-div{
+		background: url(/images/success-bg.jpg) repeat-x left top;
+
+	}
+	.success-div img{
+		max-width: 100%;
+		width: auto;
+		margin: 0 auto;
+	}
+
+}

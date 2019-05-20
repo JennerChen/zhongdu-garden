@@ -1,10 +1,6 @@
-import React, { useState } from "react";
-
+import React from "react";
+import { Form, UserName, Tel, Submit } from "./form";
 export default function({ setKanFangModal }) {
-  const [username, setName] = useState("");
-
-  const [tel, setTel] = useState("");
-
   return (
     <div className="content-bg">
       <div className="house-mess container">
@@ -35,37 +31,29 @@ export default function({ setKanFangModal }) {
         <p>3.此活动不含售楼处老客户，中间渠道复访客！</p>
         <h5>请留下您的联系方式，以便于我们的客服及时与您取得联系：</h5>
         <div className="input-div">
-          <form id="FormInput">
+          <Form id="FormInput">
             <div className="form-div">
               <label>姓名：</label>
-              <input
+              <UserName
                 type="text"
-                value={username}
-                onChange={({ target: { value } }) => setName(value)}
                 name="userName01"
                 placeholder="请输入您的姓名"
               />
             </div>
             <div className="form-div">
               <label>电话：</label>
-              <input
+              <Tel
                 type="tel"
-                value={tel}
-                onChange={({ target: { value } }) => setTel(value)}
                 name="userPhone01"
                 placeholder="请输入您的联系方式"
               />
             </div>
             <div className="form-div">
-              <a
-                className="btn-submit01"
-                href="javascript:void(0);"
-                id="submit01"
-              >
+              <Submit className="btn-submit01" id="submit01">
                 提交
-              </a>
+              </Submit>
             </div>
-          </form>
+          </Form>
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 import styled from "styled-components";
-import { UserName, Tel, Submit } from "./form";
+import { UserName, Tel, Submit, Form } from "./form";
 const Title = styled.label`
   color: #990000;
 `;
@@ -14,7 +14,7 @@ export default function() {
       </h3>
       <p>已经提交896人</p>
       <div className="div24">
-        <form id="allday">
+        <Form id="allday">
           <div className="div24-input">
             <label>姓名</label>
             <UserName type="text" name="userName02" placeholder="姓名" />
@@ -24,7 +24,7 @@ export default function() {
             <Tel type="text" name="userPhone02" placeholder="电话" />
           </div>
           <Submit className="btn-allday" id="submit02" >立即预约</Submit>
-        </form>
+        </Form>
       </div>
       <div className="success-div">
         <img src="/images/kanfang/success.gif" />

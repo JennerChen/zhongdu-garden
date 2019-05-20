@@ -315,7 +315,6 @@
 		height: 100%;
 		background: rgba(0, 0, 0, 0.2);
 		z-index: 9999;
-		display: none;
 	}
 
 	.updiv-con {
@@ -334,7 +333,7 @@
 	.updel {
 		width: 20px;
 		height: 20px;
-		background: url(/images/updel.jpg) no-repeat left top;
+		background: url(/images/updel.png) no-repeat left top;
 		display: block;
 		position: absolute;
 		right: -10px;

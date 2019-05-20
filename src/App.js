@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Banner from "./Banner";
 import GaiYao from "./GaiYao"
 import LingHongBao from "./LingHongBao";

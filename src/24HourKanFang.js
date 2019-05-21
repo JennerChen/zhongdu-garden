@@ -2,6 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 import { UserName, Tel, Submit, Form } from "./form";
+import SuccessGif from "./images/kanfang/success.gif"
 const Title = styled.label`
   color: #990000;
 `;
@@ -23,11 +24,13 @@ export default function() {
             <label>电话</label>
             <Tel type="text" name="userPhone02" placeholder="电话" />
           </div>
-          <Submit className="btn-allday" id="submit02" >立即预约</Submit>
+          <Submit className="btn-allday" id="submit02">
+            立即预约
+          </Submit>
         </Form>
       </div>
       <div className="success-div">
-        <img src="/images/kanfang/success.gif" />
+        <img src={SuccessGif} />
       </div>
     </div>
   );

@@ -1,15 +1,21 @@
 import React from "react";
 import { Form, UserName, Tel, Submit } from "./form";
+import LouPanXinXi1 from "./images/loupanxinxin/1.jpg";
+import LouPanXinXi2 from "./images/loupanxinxin/2.jpg";
+import LouPanXinXi3 from "./images/loupanxinxin/3.jpg";
+import LouPanXinXi4 from "./images/loupanxinxin/4.jpg";
+import LouPanXinXi5 from "./images/loupanxinxin/5.jpg";
+import LouPanXinXi6 from "./images/loupanxinxin/6.jpg";
 export default function({ setKanFangModal }) {
   return (
     <div className="content-bg">
       <div className="house-mess container">
-        <img alt="" src="/images/loupanxinxin/1.jpg" />
-        <img alt="" src="/images/loupanxinxin/2.jpg" />
-        <img alt="" src="/images/loupanxinxin/3.jpg" />
-        <img alt="" src="/images/loupanxinxin/4.jpg" />
-        <img alt="" src="/images/loupanxinxin/5.jpg" />
-        <img alt="" src="/images/loupanxinxin/6.jpg" />
+        <img alt="" src={LouPanXinXi1} />
+        <img alt="" src={LouPanXinXi2} />
+        <img alt="" src={LouPanXinXi3} />
+        <img alt="" src={LouPanXinXi4} />
+        <img alt="" src={LouPanXinXi5} />
+        <img alt="" src={LouPanXinXi6} />
       </div>
 
       <div className="yuyue-img">

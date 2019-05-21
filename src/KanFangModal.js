@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, Submit, UserName, Tel } from "./form";
+
 export default function({ setKanFangModal, title }) {
   return (
     <div className="page-updiv">

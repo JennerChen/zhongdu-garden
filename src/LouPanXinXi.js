@@ -6,6 +6,7 @@ import LouPanXinXi3 from "./images/loupanxinxin/3.jpg";
 import LouPanXinXi4 from "./images/loupanxinxin/4.jpg";
 import LouPanXinXi5 from "./images/loupanxinxin/5.jpg";
 import LouPanXinXi6 from "./images/loupanxinxin/6.jpg";
+import PhoneIcon from "./images/footer/1.png"
 export default function({ setKanFangModal }) {
   return (
     <div className="content-bg">
@@ -99,7 +100,7 @@ export default function({ setKanFangModal }) {
           <li className="foot-li03">
             <a href="tel:400-070-5918">
               <span>
-                <img src="/images/footer/1.png" />
+                <img src={ PhoneIcon } />
               </span>
               <label />
               售楼处热线
